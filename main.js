@@ -9,7 +9,7 @@ label.for = 'chat-img-block';
 
 label.textContent = 'Block Images'
 label.prepend(cb);
-label.style = "float: left; padding: 24px 0px;"
+label.style = "float: left; padding: 24px 10px;"
 
 document.querySelector('.logo-rr.logo-community').insertAdjacentElement('afterend', label)
 
