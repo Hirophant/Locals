@@ -45,10 +45,8 @@ function callback(mutationList, observer) {
                                 }
                                 if (document.getElementById('chat-img-block').checked) {
                                     node.outerHTML = '[img removed]';
-                                    console.log(`Removed photo`);
+                                    console.log(`Removed photo ${node.querySelector('a').href}`);
                                 }
-                                
-                                
                             })
                         }
                     }
