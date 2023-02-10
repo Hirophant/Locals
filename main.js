@@ -40,7 +40,7 @@ function callback(mutationList, observer) {
                             Array.from(node.querySelectorAll('.message-photo')).forEach(node => {
                                 if (document.getElementById('chat-mv-img-block').checked && node.querySelector('a').href?.endsWith('gif')) {
                                     node.outerHTML = '[img removed]'
-                                    console.log(`Removed photo`)
+                                    console.log(`Removed photo ${node.querySelector('a').href}`)
                                     return
                                 }
                                 if (document.getElementById('chat-img-block').checked) {
