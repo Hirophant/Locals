@@ -59,11 +59,12 @@ function callback(mutationList, observer) {
     }
 }
 
-
-observer.observe(
-    document.getElementById('chat-history'),
-    {
-        subtree: true,
-        childList: true
-    }
-)
+if (document.getElementById('chat-history')) {
+    observer.observe(
+        document.getElementById('chat-history'),
+        {
+            subtree: true,
+            childList: true
+        }
+    )
+}
