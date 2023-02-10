@@ -22,7 +22,7 @@ var label = document.createElement('label');
 label.for = 'chat-mv-img-block';
 
 
-label.textContent = 'Block Moving Images'
+label.textContent = 'Block Gifs'
 label.prepend(cb);
 label.style = "float: left; padding: 24px 5px;"
 
