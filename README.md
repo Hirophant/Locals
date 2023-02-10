@@ -1,0 +1,1 @@
+Has two options to either block all images or just gifs in locals live chats
